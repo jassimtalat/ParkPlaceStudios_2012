@@ -1,0 +1,125 @@
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+  position: fixed; 
+  bottom: 15px; 
+  z-index:1000; 
+  left: 170px;
+	width: auto;
+  z-index:500;
+}
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width: 8em;
+	float: left;
+}
+ul.MenuBarHorizontal ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	z-index: 1020;
+	cursor: default;
+	width: 8.2em;
+	position: absolute;
+	left: -1000em;
+}
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
+{
+	left: auto;
+}
+ul.MenuBarHorizontal ul li
+{ position: relative; 
+  padding:3px 0;
+	bottom: 280px; 
+	width: 170px; left:-30px; 
+  text-align:center;
+  background: #000 url(../images/red-sep.png) bottom center no-repeat;
+  z-index:1001;
+  opacity:.90;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter:alpha(opacity=90);
+}
+
+.english
+{ bottom: -50px; margin-bottom:-50px;}
+ul.MenuBarHorizontal ul ul
+{
+	position: absolute;
+	margin: -5% 0 0 95%;
+}
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible
+{
+	left: auto;
+	top: 0;
+}
+ul.MenuBarHorizontal a
+{ height:15px;
+	display: block;
+	cursor: pointer;
+	padding: 0.5em 0.75em;
+	color: #e2e2e2;
+	text-decoration: none;
+  font-size:16px;
+}
+ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
+{
+	color: #FFF;
+}
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
+{
+	color: #ea0808;
+}
+ul.MenuBarHorizontal a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarDown.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+ul.MenuBarHorizontal a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarDownHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+ul.MenuBarHorizontal iframe
+{
+	position: absolute;
+	z-index: 1010;
+	filter:alpha(opacity:0.1);
+}
+@media screen, projection
+{
+	ul.MenuBarHorizontal li.MenuBarItemIE
+	{
+		display: inline;
+		float: left;
+	}
+}

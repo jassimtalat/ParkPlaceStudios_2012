@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: 'ProfileBlackRegular';
+    src: url('profile-black-webfont.eot');
+    src: url('profile-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-black-webfont.woff') format('woff'),
+         url('profile-black-webfont.ttf') format('truetype'),
+         url('profile-black-webfont.svg#ProfileBlackRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProfileBold';
+    src: url('profile-bold-webfont.eot');
+    src: url('profile-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-bold-webfont.woff') format('woff'),
+         url('profile-bold-webfont.ttf') format('truetype'),
+         url('profile-bold-webfont.svg#ProfileBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProfileBlackItalic';
+    src: url('profile-blackitalic-webfont.eot');
+    src: url('profile-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-blackitalic-webfont.woff') format('woff'),
+         url('profile-blackitalic-webfont.ttf') format('truetype'),
+         url('profile-blackitalic-webfont.svg#ProfileBlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProfileBoldItalic';
+    src: url('profile-bolditalic-webfont.eot');
+    src: url('profile-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-bolditalic-webfont.woff') format('woff'),
+         url('profile-bolditalic-webfont.ttf') format('truetype'),
+         url('profile-bolditalic-webfont.svg#ProfileBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProfileLightRegular';
+    src: url('profile-light-webfont.eot');
+    src: url('profile-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-light-webfont.woff') format('woff'),
+         url('profile-light-webfont.ttf') format('truetype'),
+         url('profile-light-webfont.svg#ProfileLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProfileLightItalic';
+    src: url('profile-lightitalic-webfont.eot');
+    src: url('profile-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-lightitalic-webfont.woff') format('woff'),
+         url('profile-lightitalic-webfont.ttf') format('truetype'),
+         url('profile-lightitalic-webfont.svg#ProfileLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProfileMediumItalic';
+    src: url('profile-mediumitalic-webfont.eot');
+    src: url('profile-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-mediumitalic-webfont.woff') format('woff'),
+         url('profile-mediumitalic-webfont.ttf') format('truetype'),
+         url('profile-mediumitalic-webfont.svg#ProfileMediumItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProfileMedium';
+    src: url('profile-medium-webfont.eot');
+    src: url('profile-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('profile-medium-webfont.woff') format('woff'),
+         url('profile-medium-webfont.ttf') format('truetype'),
+         url('profile-medium-webfont.svg#ProfileMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TheSansB5PlainRegular';
+    src: url('thesans-b5plain_0-webfont.eot');
+    src: url('thesans-b5plain_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thesans-b5plain_0-webfont.woff') format('woff'),
+         url('thesans-b5plain_0-webfont.ttf') format('truetype'),
+         url('thesans-b5plain_0-webfont.svg#TheSansB5PlainRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TheSansB5PlainItalic';
+    src: url('thesans-b5plainitalic_0-webfont.eot');
+    src: url('thesans-b5plainitalic_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thesans-b5plainitalic_0-webfont.woff') format('woff'),
+         url('thesans-b5plainitalic_0-webfont.ttf') format('truetype'),
+         url('thesans-b5plainitalic_0-webfont.svg#TheSansB5PlainItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

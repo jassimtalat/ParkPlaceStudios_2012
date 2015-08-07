@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/supersized.3.2.6.min.js"></script>
+<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+<script type="text/javascript">
+jQuery(function($){
+$.supersized({
+	// Functionality
+	slide_interval:   5000,	// Length between transitions
+	transition:   1, 		// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+	transition_speed:	1000,	// Speed of transition
+	// Components							
+	slide_links:	'blank',// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+	slides:  	[		// Slideshow Images
+		{image : 'images/gallery/sports/001_kstc.jpg', title : '', thumb : 'images/gallery/sports/001_kstc.jpg', url : ''},
+		{image : 'images/gallery/sports/003_kstc.jpg', title : '', thumb : 'images/gallery/sports/003_kstc.jpg', url : ''},
+		{image : 'images/gallery/sports/msn_001.jpg', title : 'Mountineer Sports Network', thumb : 'images/gallery/sports/msn_001.jpg', url : ''},
+		{image : 'images/gallery/sports/nationals_001.jpg', title : 'Washington Nationals for Mid Atlantic Sports', thumb : 'images/gallery/sports/nationals_001.jpg', url : ''},
+		{image : 'images/gallery/sports/nationals_002.jpg', title : 'Washington Nationals for Mid Atlantic Sports', thumb : 'images/gallery/sports/nationals_002.jpg', url : ''},
+		{image : 'images/gallery/sports/nationals_003.jpg', title : 'Washington Nationals for Mid Atlantic Sports', thumb : 'images/gallery/sports/nationals_003.jpg', url : ''},
+		{image : 'images/gallery/sports/nationals_004.jpg', title : 'Washington Nationals for Mid Atlantic Sports', thumb : 'images/gallery/sports/nationals_004.jpg', url : ''},
+		{image : 'images/gallery/sports/orioles_001.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/orioles_001.jpg', url : ''},
+		{image : 'images/gallery/sports/orioles_002.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/orioles_002.jpg', url : ''},
+		{image : 'images/gallery/sports/orioles_003.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/orioles_003.jpg', url : ''},
+		{image : 'images/gallery/sports/orioles_004.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/orioles_004.jpg', url : ''},
+		{image : 'images/gallery/sports/orioles_005.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/orioles_005.jpg', url : ''},
+		{image : 'images/gallery/sports/orioles_006.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/orioles_006.jpg', url : ''},
+		{image : 'images/gallery/sports/orioles_007.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/orioles_007.jpg', url : ''},
+		{image : 'images/gallery/sports/ravens_001.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/ravens_001.jpg', url : ''},
+		{image : 'images/gallery/sports/ravens_002.jpg', title : 'Baltimore Orioles for Mid Atlantic Sports', thumb : 'images/gallery/sports/ravens_002.jpg', url : ''}
+		]
+	});
+});
+</script>
+</head>
+
+<body >
+
+  
+	<!--Thumbnail Navigation-->
+	<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+
+</body>
+</html>
